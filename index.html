@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/lemon-milk" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-..." crossorigin="anonymous">
+    <title>JAG ROOFING AND CONSTRUCTION</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="sub-nav">
+            <div class="containers">
+                <div class="nav-email-no">
+                    <img src="Images/Strip/email.svg" alt="email-img" class="nav-img">
+                    <span class="nav-email">Email: jagroofingconstruction@gmail.com</span>
+                    <img src="Images/Strip/call.svg" alt="phone-img" class="nav-img">
+                    <span class="nav-no">Phone: +82 7993863789</span>
+                </div>
+                <div class="nav-icons">
+                    <img src="Images/Strip/facebook.svg" alt="facebook">
+                    <img src="Images/Strip/instagram.svg" alt="instagram">
+                    <img src="Images/Strip/linkedin.svg" alt="linkedin">
+                    <img src="Images/Strip/twitter.svg" alt="twitter">
+                </div>
+
+                <!-- Mobile ticker shown at <= 429px -->
+                <div class="sub-nav-ticker" aria-label="Contact and social ticker">
+                    <div class="ticker-track">
+                        <span class="ticker-item">
+                            <img src="Images/Strip/call.svg" alt="phone" class="nav-img" />
+                            <span>+82 7993863789</span>
+                        </span>
+                        <span class="ticker-item">
+                            <img src="Images/Strip/email.svg" alt="email" class="nav-img" />
+                            <span>jagroofingconstruction@gmail.com</span>
+                        </span>
+                        <span class="ticker-item icons">
+                            <img src="Images/Strip/facebook.svg" alt="facebook" />
+                            <img src="Images/Strip/instagram.svg" alt="instagram" />
+                            <img src="Images/Strip/linkedin.svg" alt="linkedin" />
+                            <img src="Images/Strip/twitter.svg" alt="twitter" />
+                        </span>
+                        <!-- Duplicate for seamless loop -->
+                        <span class="ticker-item">
+                            <img src="Images/Strip/call.svg" alt="phone" class="nav-img" />
+                            <span>+82 7993863789</span>
+                        </span>
+                        <span class="ticker-item">
+                            <img src="Images/Strip/email.svg" alt="email" class="nav-img" />
+                            <span>jagroofingconstruction@gmail.com</span>
+                        </span>
+                        <span class="ticker-item icons">
+                            <img src="Images/Strip/facebook.svg" alt="facebook" />
+                            <img src="Images/Strip/instagram.svg" alt="instagram" />
+                            <img src="Images/Strip/linkedin.svg" alt="linkedin" />
+                            <img src="Images/Strip/twitter.svg" alt="twitter" />
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <div class="container">
+                <div class="nav-logo">
+                    <img src="Images/Logo/Logo.svg" alt="logo">
+                </div>
+
+                <!-- Hamburger toggle for mobile/tablet -->
+                <input type="checkbox" id="nav-toggle" class="nav-toggle">
+                <label for="nav-toggle" class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+
+                <!-- Overlay for off-canvas menu -->
+                <div class="nav-overlay"></div>
+
+                <div class="nav-menu" role="navigation" aria-label="Main">
+                    <div class="menu-header">
+                        <img src="Images/Logo/Logo.svg" alt="logo" class="menu-logo">
+                        <button type="button" class="menu-close" aria-label="Close menu">&times;</button>
+                    </div>
+                    <a href="#">About</a>
+                    <a href="#">Services</a>
+                    <a href="#">Financing</a>
+                    <a href="#">FAQs</a>
+                    <div class="btnn">
+                        <a href="#" class="primary-btnn">Request A Free Estimate <span class="arrow">&#8599;</span></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="hero-section">
+
+            <div class="hero-content">
+                <h1>Elevate Your Space with <span class="hero-img"><img src="Images/Hero/heading_img.svg"></span>
+                </h1>
+                <!-- <img src="" alt="">-->
+                <h2><span class="hero-img-2"><img src="Images/Hero/heading_icon.svg"></span>Expert Roofing Solutions
+                </h2>
+            </div>
+
+            <div class="hero-bottom">
+                <div class="hero-left">
+                    <div class="hero-left-content">
+                        <p>At Jag Roofing & Construction, we deliver top-quality roofing and exterior repair services in
+                            Corpus Christi, Texas. Our team of experts is dedicated to providing efficient and reliable
+                            solutions that protect your home or business.</p>
+                        <div class="btnn">
+                            <a href="#" class="primary-btnn">Request A Free Estimate <span
+                                    class="arrow">&#8599;</span></a>
+                        </div>
+                    </div>
+                    <div class="hero-left-img">
+                        <img src="Images/Hero/side-hero-img.png" alt="hero-img">
+                    </div>
+                </div>
+                <div class="hero-img-4">
+                    <img src="Images/Hero/house.png" alt="hero-img">
+                </div>
+            </div>
+
+            <div class="request-section">
+                <div class="request-text">
+                    <p>Quick Service Request</p>
+                    <h3>Send Inspection Request</h3>
+                </div>
+                <form class="request-form">
+                    <input type="text" placeholder="Enter your full name">
+                    <input type="text" placeholder="Phone number">
+                    <button type="submit">
+                        Send <span class="arrow">&#8599;</span>
+                    </button>
+                </form>
+            </div>
+        </section>
+
+        <!-- About Section -->
+
+        <section class="about-section">
+
+            <div class="about-container-lg">
+
+                <!-- Left Column: Images -->
+                <div class="image-column">
+
+                    <!-- Main Image and 99% Badge (Relative Positioning) -->
+                    <div class="relative-container">
+                        <!-- Using a placeholder image with the correct aspect ratio and color scheme -->
+                        <div class="main-image-container">
+
+
+                            <img src="Images/About/About.png" alt="Modern angular house at dusk with large windows"
+                                class="main-image">
+                        </div>
+
+                        <!-- 99% Satisfied Customers Badge (Absolute Positioning) -->
+                        <img src="Images/About/Satisfied.png" alt="99% Satisfied Customers" class="satisfaction-badge">
+
+                    </div>
+
+                    <!-- Worker Image (Overlapping) -->
+                    <div class="worker-image-container">
+                        <img src="Images/About/house-maker.png" alt="Roofer applying materials to a roof"
+                            class="small-image">
+                    </div>
+                </div>
+
+                <!-- Right Column: Content -->
+                <div class="content-area-lg">
+
+                    <!-- Title Area with Custom ::before (Vertical line) and ::after (Horizontal line) -->
+                    <div class="title-container">
+                        <h3 class="about-title">EXPERIENCE THE FUTURE OF <br><span>ROOFING SERVICES</span></h3>
+                    </div>
+
+                    <!-- Features Row -->
+                    <div class="feature-row">
+
+                        <!-- Efficiency Feature -->
+                        <div class="feature-item">
+                            <h4>Efficiency</h4>
+                            <p>Experience faster project completion times with our advanced roofing technology.</p>
+                        </div>
+
+                        <!-- Reliability Feature -->
+                        <div class="feature-item">
+                            <h4>Reliability</h4>
+                            <p>Trust in our expertise to provide long-lasting and durable roofing solutions for your
+                                property.</p>
+                        </div>
+                    </div>
+
+                    <div class="btnn">
+                        <a href="#" class="primary-btnn">Request A Free Estimate <span class="arrow">&#8599;</span></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Banner Section -->
+
+        <section class="banner-section">
+            <div class="banner-content">
+                <span>Repairs</span> <span class="star">✶</span>
+                <span>Commercial Roofing</span> <span class="star">✶</span>
+                <span>Residential Roofing</span> <span class="star">✶</span>
+                <span>Exterior Repairs</span> <span class="star">✶</span>
+                <span>Commercial Roofing</span> <span class="star">✶</span>
+                <span>Residential Roofing</span> <span class="star">✶</span>
+
+                <!-- Repeat for seamless loop -->
+                <span>Repairs</span> <span class="star">✶</span>
+                <span>Commercial Roofing</span> <span class="star">✶</span>
+                <span>Residential Roofing</span> <span class="star">✶</span>
+                <span>Exterior Repairs</span> <span class="star">✶</span>
+                <span>Commercial Roofing</span> <span class="star">✶</span>
+                <span>Residential Roofing</span>
+            </div>
+        </section>
+
+        <!-- Our Services -->
+
+        <section class="service-section">
+            <div class="container">
+
+                <!-- Service Introduction -->
+                <div class="service-intro">
+                    <!-- Subtitle -->
+
+                    <!-- Title & Description Container -->
+                    <div class="service-header-content">
+                        <!-- Main Title -->
+                        <div class="service-title-container">
+                            <p class="service-subtitle">Our Service</p>
+                            <h2 class="service-main-title">
+                                PREMIER ROOFING SOLUTIONS
+                                <span class="service-title-span">FOR HOMES AND BUSINESSES.</span>
+                            </h2>
+                        </div>
+
+                        <!-- Description -->
+                        <div class="service-description-container">
+                            <p class="service-header-description">
+                                Jag Roofing & Construction offers expert roofing and exterior repair services. With a
+                                focus on quality work and exceptional service, trust us for any project, big or small.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-content-grid">
+
+                    <!-- Left Column: Image -->
+                    <div class="service-image-column">
+                        <img src="Images/Our-Service/our-service.png" alt="our-services-image" class="service-image">
+                    </div>
+
+                    <!-- Right Column: Services Accordion -->
+                    <div id="services-accordion" class="services-column">
+
+                        <!-- Service 1: Roof Replacement (Start active) -->
+                        <div id="service-1" class="service-item active" data-service-id="service-1">
+                            <div class="service-item-title">
+                                <!-- Number and Title -->
+                                <div class="service-title-wrap">
+                                    <span class="service-number">01/</span>
+                                    <div class="flex flex-col">
+                                        <h4 class="service-title">Roof Replacement</h4>
+                                    </div>
+                                </div>
+
+                                <!-- Arrow Icon (Initial state: Active icon) -->
+                                <div class="service-icon-wrap">
+                                    <!-- Image path updated -->
+                                    <img src="Images/Our-Service/arrow.svg" alt="Arrow Icon" class="arrow-icon">
+                                </div>
+                            </div>
+
+                            <!-- Description Area (The content that opens) -->
+                            <div class="service-description">
+                                <p class="service-description-text">
+                                    Who said homeownership had to be costly? Certainly not those who actually own a
+                                    home.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Service 2: Maintenance and Repair (Inactive) -->
+                        <div id="service-2" class="service-item" data-service-id="service-2">
+                            <div class="service-item-title">
+                                <div class="service-title-wrap">
+                                    <span class="service-number">02/</span>
+                                    <div class="flex flex-col">
+                                        <h4 class="service-title">Maintenance and Repair</h4>
+                                    </div>
+                                </div>
+                                <div class="service-icon-wrap">
+                                    <!-- Image path updated -->
+                                    <img src="Images/Our-Service/arrow.svg" alt="Arrow Icon" class="arrow-icon">
+                                </div>
+                            </div>
+                            <div class="service-description">
+                                <p class="service-description-text">
+                                    Who said homeownership had to be costly? Certainly not those who actually own a
+                                    home.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Service 3: Water Proofing (Inactive) -->
+                        <div id="service-3" class="service-item" data-service-id="service-3">
+                            <div class="service-item-title">
+                                <div class="service-title-wrap">
+                                    <span class="service-number">03/</span>
+                                    <div class="flex flex-col">
+                                        <h4 class="service-title">Water Proofing</h4>
+                                    </div>
+                                </div>
+                                <div class="service-icon-wrap">
+                                    <!-- Image path updated -->
+                                    <img src="Images/Our-Service/arrow.svg" alt="Arrow Icon" class="arrow-icon">
+                                </div>
+                            </div>
+                            <div class="service-description">
+                                <p class="service-description-text">
+                                    Who said homeownership had to be costly? Certainly not those who actually own a
+                                    home.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Service 4: Roof Restoration (Inactive) -->
+                        <div id="service-4" class="service-item" data-service-id="service-4">
+                            <div class="service-item-title">
+                                <div class="service-title-wrap">
+                                    <span class="service-number">04/</span>
+                                    <div class="flex flex-col">
+                                        <h4 class="service-title">Roof Restoration</h4>
+                                    </div>
+                                </div>
+                                <div class="service-icon-wrap">
+                                    <!-- Image path updated -->
+                                    <img src="Images/Our-Service/arrow.svg" alt="Arrow Icon" class="arrow-icon">
+                                </div>
+                            </div>
+                            <div class="service-description">
+                                <p class="service-description-text">
+                                    Who said homeownership had to be costly? Certainly not those who actually own a
+                                    home.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Service 5: Emergency Repair (Inactive) -->
+                        <div id="service-5" class="service-item" data-service-id="service-5">
+                            <div class="service-item-title">
+                                <div class="service-title-wrap">
+                                    <span class="service-number">05/</span>
+                                    <div class="flex flex-col">
+                                        <h4 class="service-title">Emergency Repair</h4>
+                                    </div>
+                                </div>
+                                <div class="service-icon-wrap">
+                                    <!-- Image path updated -->
+                                    <img src="Images/Our-Service/arrow.svg" alt="Arrow Icon" class="arrow-icon">
+                                </div>
+                            </div>
+                            <div class="service-description">
+                                <p class="service-description-text">
+                                    Who said homeownership had to be costly? Certainly not those who actually own a
+                                    home.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Estimate Section -->
+        <section class="estimate-section">
+            <div class="estimate-content">
+                <div class="estimate-title-container">
+                    <h3 class="estimate-title">GET A FREE <span><img src="Images/Hero/heading_img.svg"></span>
+                    </h3>
+                    <h3 class="estimate-subtitle"><span><img src="Images/Estimate/icon.svg"></span>ESTIMATE TODAY</h3>
+
+
+                </div>
+                <div class="estimate-text">
+                    <p>
+                        Jag Roofing & Construction is your trusted partner for all roofing and exterior repairs. With
+                        our expertise and commitment to quality, rely on us for exceptional solutions tailored to your
+                        home or business.
+                    </p>
+                </div>
+                <div class="btnn">
+                    <a href="#" class="primary-btnn">Request A Free Estimate <span class="arrow">&#8599;</span></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Instagram Feed  -->
+
+        <section class="instagram-section">
+            <h4>We’re Social</h4>
+            <h2 class="title">INSTAGRAM<span> FEED </span></h2>
+
+            <div class="wrapper">
+
+                <div class="carousel">
+                    <div class="carousel-track">
+                        <div class="carousel-slide carousel-img-top"><img src="Images/Instagram/Image1.jpg" alt="1">
+                        </div>
+                        <div class="carousel-slide carousel-img-bottom"><img src="Images/Instagram/Image2.jpg" alt="2">
+                        </div>
+                        <div class="carousel-slide carousel-img-top"><img src="Images/Instagram/Image3.jpg" alt="3">
+                        </div>
+                        <div class="carousel-slide carousel-img-bottom"><img src="Images/Instagram/Image4.jpg" alt="4">
+                        </div>
+                        <div class="carousel-slide carousel-img-top"><img src="Images/Instagram/Image5.jpg" alt="5">
+                        </div>
+                        <div class="carousel-slide carousel-img-bottom"><img src="Images/Instagram/Image6.jpg" alt="6">
+                        </div>
+                        <div class="carousel-slide carousel-img-top"><img src="Images/Instagram/Image1.jpg" alt="1">
+                        </div>
+                        <div class="carousel-slide carousel-img-bottom"><img src="Images/Instagram/Image2.jpg" alt="2">
+                        </div>
+                        <div class="carousel-slide carousel-img-top"><img src="Images/Instagram/Image3.jpg" alt="3">
+                        </div>
+                        <div class="carousel-slide carousel-img-bottom"><img src="Images/Instagram/Image4.jpg" alt="4">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- latest Project Section -->
+        <section class="latest-section">
+            <div class="containers">
+                <h6>LATEST PROJECTS</h6>
+                <div class="latest-header">
+                    <h2>EXPLORE OUR <span>LATEST PROJECTS</span></h2>
+                    <div class="btnn">
+                        <a href="#" class="primary-btnn">View More<span class="arrow">&#8599;</span></a>
+                    </div>
+                </div>
+
+                <div class="latest-accordion">
+                    <!-- Project 1 -->
+                    <div class="latest-item">
+                        <div class="latest-header-item">
+                            <div>
+                                <div>
+                                    <h6>PROJECT 1</h6>
+                                </div>
+                                <div class="latest-title-text">
+                                    <h4>Low Rise Building and Repair Roof</h4>
+                                </div>
+                            </div>
+                            <div class="latest-icon">
+                                <svg width="22" height="15" viewBox="0 0 22 15" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M0.499636 7.50003C0.499636 7.30112 0.578653 7.11035 0.719305 6.9697C0.859959 6.82905 1.05072 6.75003 1.24964 6.75003L18.9391 6.75003L14.2186 2.03103C14.0778 1.8902 13.9987 1.69919 13.9987 1.50003C13.9987 1.30087 14.0778 1.10986 14.2186 0.969029C14.3595 0.828199 14.5505 0.749083 14.7496 0.749083C14.9488 0.749083 15.1398 0.828199 15.2806 0.969029L21.2806 6.96903C21.3505 7.0387 21.4059 7.12146 21.4437 7.21258C21.4815 7.3037 21.501 7.40138 21.501 7.50003C21.501 7.59868 21.4815 7.69636 21.4437 7.78748C21.4059 7.8786 21.3505 7.96136 21.2806 8.03103L15.2806 14.031C15.2109 14.1008 15.1281 14.1561 15.037 14.1938C14.9459 14.2316 14.8483 14.251 14.7496 14.251C14.5505 14.251 14.3595 14.1719 14.2186 14.031C14.0778 13.8902 13.9987 13.6992 13.9987 13.5C13.9987 13.3009 14.0778 13.1099 14.2186 12.969L18.9391 8.25003L1.24964 8.25003C1.05072 8.25003 0.859959 8.17101 0.719305 8.03036C0.578653 7.88971 0.499636 7.69894 0.499636 7.50003Z"
+                                        fill="#0F6DBF" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="latest-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in
+                                hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur,
+                                ultrices mauris.</p>
+                        </div>
+                        <img src="Images/Project/project-image.png" alt="Project 1">
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="latest-item">
+                        <div class="latest-header-item">
+                            <div>
+                                <div>
+                                    <div>
+                                        <h6>PROJECT 2</h6>
+                                    </div>
+                                    <div class="latest-title-text">
+                                        <h4>Low Rise Building and Repair Roof</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="latest-icon">
+                                <svg width="22" height="15" viewBox="0 0 22 15" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M0.499636 7.50003C0.499636 7.30112 0.578653 7.11035 0.719305 6.9697C0.859959 6.82905 1.05072 6.75003 1.24964 6.75003L18.9391 6.75003L14.2186 2.03103C14.0778 1.8902 13.9987 1.69919 13.9987 1.50003C13.9987 1.30087 14.0778 1.10986 14.2186 0.969029C14.3595 0.828199 14.5505 0.749083 14.7496 0.749083C14.9488 0.749083 15.1398 0.828199 15.2806 0.969029L21.2806 6.96903C21.3505 7.0387 21.4059 7.12146 21.4437 7.21258C21.4815 7.3037 21.501 7.40138 21.501 7.50003C21.501 7.59868 21.4815 7.69636 21.4437 7.78748C21.4059 7.8786 21.3505 7.96136 21.2806 8.03103L15.2806 14.031C15.2109 14.1008 15.1281 14.1561 15.037 14.1938C14.9459 14.2316 14.8483 14.251 14.7496 14.251C14.5505 14.251 14.3595 14.1719 14.2186 14.031C14.0778 13.8902 13.9987 13.6992 13.9987 13.5C13.9987 13.3009 14.0778 13.1099 14.2186 12.969L18.9391 8.25003L1.24964 8.25003C1.05072 8.25003 0.859959 8.17101 0.719305 8.03036C0.578653 7.88971 0.499636 7.69894 0.499636 7.50003Z"
+                                        fill="#0F6DBF" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="latest-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in
+                                hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur,
+                                ultrices mauris.</p>
+                        </div>
+                        <img src="Images/Project/project-image.png" alt="Project 2">
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="latest-item">
+                        <div class="latest-header-item">
+                            <div>
+                                <div>
+                                    <div>
+                                        <h6>PROJECT 3</h6>
+                                    </div>
+                                    <div class="latest-title-text">
+                                        <h4>Low Rise Building and Repair Roof</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="latest-icon">
+                                <svg width="22" height="15" viewBox="0 0 22 15" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M0.499636 7.50003C0.499636 7.30112 0.578653 7.11035 0.719305 6.9697C0.859959 6.82905 1.05072 6.75003 1.24964 6.75003L18.9391 6.75003L14.2186 2.03103C14.0778 1.8902 13.9987 1.69919 13.9987 1.50003C13.9987 1.30087 14.0778 1.10986 14.2186 0.969029C14.3595 0.828199 14.5505 0.749083 14.7496 0.749083C14.9488 0.749083 15.1398 0.828199 15.2806 0.969029L21.2806 6.96903C21.3505 7.0387 21.4059 7.12146 21.4437 7.21258C21.4815 7.3037 21.501 7.40138 21.501 7.50003C21.501 7.59868 21.4815 7.69636 21.4437 7.78748C21.4059 7.8786 21.3505 7.96136 21.2806 8.03103L15.2806 14.031C15.2109 14.1008 15.1281 14.1561 15.037 14.1938C14.9459 14.2316 14.8483 14.251 14.7496 14.251C14.5505 14.251 14.3595 14.1719 14.2186 14.031C14.0778 13.8902 13.9987 13.6992 13.9987 13.5C13.9987 13.3009 14.0778 13.1099 14.2186 12.969L18.9391 8.25003L1.24964 8.25003C1.05072 8.25003 0.859959 8.17101 0.719305 8.03036C0.578653 7.88971 0.499636 7.69894 0.499636 7.50003Z"
+                                        fill="#0F6DBF" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="latest-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in
+                                hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur,
+                                ultrices mauris.</p>
+                        </div>
+                        <img src="Images/Project/project-image.png" alt="Project 3">
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="latest-item">
+                        <div class="latest-header-item">
+                            <div>
+                                <div>
+                                    <div>
+                                        <h6>PROJECT 4</h6>
+                                    </div>
+                                    <div class="latest-title-text">
+                                        <h4>Low Rise Building and Repair Roof</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="latest-icon">
+                                <svg width="22" height="15" viewBox="0 0 22 15" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M0.499636 7.50003C0.499636 7.30112 0.578653 7.11035 0.719305 6.9697C0.859959 6.82905 1.05072 6.75003 1.24964 6.75003L18.9391 6.75003L14.2186 2.03103C14.0778 1.8902 13.9987 1.69919 13.9987 1.50003C13.9987 1.30087 14.0778 1.10986 14.2186 0.969029C14.3595 0.828199 14.5505 0.749083 14.7496 0.749083C14.9488 0.749083 15.1398 0.828199 15.2806 0.969029L21.2806 6.96903C21.3505 7.0387 21.4059 7.12146 21.4437 7.21258C21.4815 7.3037 21.501 7.40138 21.501 7.50003C21.501 7.59868 21.4815 7.69636 21.4437 7.78748C21.4059 7.8786 21.3505 7.96136 21.2806 8.03103L15.2806 14.031C15.2109 14.1008 15.1281 14.1561 15.037 14.1938C14.9459 14.2316 14.8483 14.251 14.7496 14.251C14.5505 14.251 14.3595 14.1719 14.2186 14.031C14.0778 13.8902 13.9987 13.6992 13.9987 13.5C13.9987 13.3009 14.0778 13.1099 14.2186 12.969L18.9391 8.25003L1.24964 8.25003C1.05072 8.25003 0.859959 8.17101 0.719305 8.03036C0.578653 7.88971 0.499636 7.69894 0.499636 7.50003Z"
+                                        fill="#0F6DBF" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="latest-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in
+                                hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur,
+                                ultrices mauris.</p>
+                        </div>
+                        <img src="Images/Project/project-image.png" alt="Project 4">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Feedback Section -->
+        <section class="testimonial-section">
+            <div class="testimonial-carousel">
+                <div class="testimonial-track">
+                    <!-- Slide 1 -->
+                    <div class="testimonial-slide">
+                        <div class="testimonial-img">
+                            <img src="Images/Feedback/Overlay (1).png" alt="Client 1">
+                            <img src="Images/Feedback/Front.jpg" alt="Client 1" class="front-image">
+                        </div>
+                        <div class="testimonial-content">
+                            <div class="testimonial-content-text">
+                                <h2>SOME OF OUR RESPECTED <br><span>HAPPY CLIENTS SAYS</span></h2>
+                            </div>
+                            <div class="quote"> <img src="Images/Feedback/Quote.svg" alt=""> </div>
+                            <p class="text">
+                                Jag Roofing & Construction transformed our home with their exceptional roofing services.
+                                The team's professionalism and attention to detail were truly impressive. We couldn't be
+                                happier with the results!
+                            </p>
+                            <div class="client-info">
+                                <img src="Images/Feedback/Ellipse 2.svg" alt="Michael Chen">
+                                <div>
+                                    <h4>Rob Lucci</h4>
+                                    <span>Director of ABC</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="testimonial-slide">
+                        <div class="testimonial-img">
+                            <img src="Images/Feedback/Overlay (1).png" alt="Client 1">
+                            <img src="Images/Feedback/Front.jpg" alt="Client 1" class="front-image">
+                        </div>
+                        <div class="testimonial-content">
+                            <div class="testimonial-content-text">
+                                <h2>SOME OF OUR RESPECTED <br><span>HAPPY CLIENTS SAYS</span></h2>
+                            </div>
+                            <div class="quote"> <img src="Images/Feedback/Quote.svg" alt=""> </div>
+                            <p class="text">
+                                Jag Roofing & Construction transformed our home with their exceptional roofing services.
+                                The team's professionalism and attention to detail were truly impressive. We couldn't be
+                                happier with the results!
+                            </p>
+                            <div class="client-info">
+                                <img src="Images/Feedback/Ellipse 2.svg" alt="Michael Chen">
+                                <div>
+                                    <h4>Rob Lucci</h4>
+                                    <span>Director of ABC</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="testimonial-slide">
+                        <div class="testimonial-img">
+                            <img src="Images/Feedback/Overlay (1).png" alt="Client 1">
+                            <img src="Images/Feedback/Front.jpg" alt="Client 1" class="front-image">
+                        </div>
+                        <div class="testimonial-content">
+                            <div class="testimonial-content-text">
+                                <h2>SOME OF OUR RESPECTED <br><span>HAPPY CLIENTS SAYS</span></h2>
+                            </div>
+                            <div class="quote"> <img src="Images/Feedback/Quote.svg" alt=""> </div>
+                            <p class="text">
+                                Jag Roofing & Construction transformed our home with their exceptional roofing services.
+                                The team's professionalism and attention to detail were truly impressive. We couldn't be
+                                happier with the results!
+                            </p>
+                            <div class="client-info">
+                                <img src="Images/Feedback/Ellipse 2.svg" alt="Michael Chen">
+                                <div>
+                                    <h4>Rob Lucci</h4>
+                                    <span>Director of ABC</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dots -->
+                <div class="carousel-dots"></div>
+            </div>
+        </section>
+
+        <!-- Update section -->
+        <section class="update-section">
+            <div class="update-content">
+                <div class="update-title-container">
+                    <h3 class="update-title">Stay Updated <span><img src="Images/Hero/heading_img.svg"></span>
+                    </h3>
+                    <h3 class="update-subtitle"><span><img src="Images/Estimate/icon.svg"></span>with Exclusive Offers
+                    </h3>
+
+
+                </div>
+                <div class="update-bottom">
+                    <div class="update-text">
+                        <p>
+                            Explore our roofing and exterior repair services today. Contact us for a free estimate and
+                            let's
+                            enhance your property together.
+                        </p>
+                    </div>
+                    <form class="update-form">
+                        <div class="input-wrappers">
+                            <img src="Images/ContactUs/email.svg" alt="email icon" class="icon">
+                            <input type="email" id="email" placeholder="Your email address" required="">
+                        </div>
+                        <button type="submit" class="primary-btnn">
+                            Get Updates <span class="arrow">&#8599;</span>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+
+
+        <section class="faq-section">
+            <div class="faq-container">
+                <div class="accordion-heading">
+                    <h2>FREQUENTLY ASKED <span>QUESTIONS</span></h2>
+                </div>
+
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <span>+</span>
+                        <p>How long does a roof installation take?</p>
+                    </div>
+                    <div class="accordion-content">
+                        The duration of a roof installation depends on various factors such as the size of the roof,
+                        weather conditions, and the complexity of the project. Our team will provide you with a detailed
+                        timeline during the initial consultation.
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <span>+</span>
+                        <p>What types of warranties do you offer?</p>
+                    </div>
+                    <div class="accordion-content">
+                        We offer manufacturer warranties on roofing materials and a workmanship warranty
+                        for our services.
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <span>+</span>
+                        <p>Do you provide free estimates?</p>
+                    </div>
+                    <div class="accordion-content">
+                        Yes, we provide free, no-obligation estimates for all roofing projects.
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <span>+</span>
+                        <p>What payment options do you accept?</p>
+                    </div>
+                    <div class="accordion-content">
+                        We accept major credit cards, checks, and financing options upon request.
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <span>+</span>
+                        <p>Are you licensed and insured?</p>
+                    </div>
+                    <div class="accordion-content">
+                        Yes, we are fully licensed and insured for your peace of mind.
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <span>+</span>
+                        <p>Are you licensed and insured?</p>
+                    </div>
+                    <div class="accordion-content">
+                        Yes, we are fully licensed and insured for your peace of mind.
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <span>+</span>
+                        <p>Should I replace my roof if it’s not leaking?</p>
+                    </div>
+                    <div class="accordion-content">
+                        Not necessarily. Our experts can inspect your roof and let you know if repair or
+                        preventive maintenance is a better option before considering replacement.
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Blog section -->
+
+
+        <section class="blog-section">
+            <div class="blog-container">
+            <div class="blog-header">
+                <div class="blog-header-left">
+                    <h4>Blogs & Articles</h4>
+                    <h2>INSPIRATION AWAITS:<br><span>EXPLORE OUR BLOG!</span></h2>
+                </div>
+                <button class="view-more">View More <span class="arrow">&#8599;</span></button>
+            </div>
+
+            <div class="blog-cards">
+                <!-- Card 1 -->
+                <div class="blog-card active">
+                    <img src="Images/Blog/image1.jpg" alt="Blog 1">
+                    <div class="icon-circle"><span class="arrow">&#8599;</span></div>
+                    <div class="blog-card-content">
+                        <h3>Why you should bring love into the Dream office</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi.</p>
+                         <div class="btnn">
+                    <a href="#" class="primary-btnn">Explore More <span class="arrow">&#8599;</span></a>
+                </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="blog-card">
+                    <img src="Images/Blog/image2.jpg" alt="Blog 2">
+                    <div class="icon-circle"><span class="arrow">&#8599;</span></div>
+                    <div class="blog-card-content">
+                        <h3>Modern House with Luxury Pool</h3>
+                        <p>Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla.</p>
+                        <a href="#" class="explore-btnn">Explore More →</a>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="blog-card">
+                    <img src="Images/Blog/image1.jpg" alt="Blog 3">
+                    <div class="icon-circle"><span class="arrow">&#8599;</span></div>
+                    <div class="blog-card-content">
+                        <h3>Stunning Sunset Villa</h3>
+                        <p>Ut faucibus pulvinar elementum integer enim neque volutpat ac tincidunt.</p>
+                        <a href="#" class="explore-btnn">Explore More →</a>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="blog-card">
+                    <img src="Images/Blog/image2.jpg" alt="Blog 4">
+                    <div class="icon-circle"><span class="arrow">&#8599;</span></div>
+                    <div class="blog-card-content">
+                        <h3>Unique A-Frame Architecture</h3>
+                        <p>Velit sed ullamcorper morbi tincidunt ornare massa eget egestas.</p>
+                        <a href="#" class="explore-btnn">Explore More →</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <!-- Contact Us Section -->
+
+        <section class="contact-section">
+            <div class="image-side">
+                <img src="Images/ContactUs/house.png" alt="house">
+            </div>
+            <div class="overlay">
+                <div class="form-container">
+                    <h2>FORT PROJECT ENQUIRIES, PLEASE</h2>
+                    <h3>CONTACT US BELOW</h3>
+
+                    <form>
+                        <div class="input-groups">
+                            <div class="input-wrappers">
+                                <img src="Images/ContactUs/user-icon.svg" alt="user icon" class="icon">
+                                <input type="text" placeholder="Your name" required>
+                            </div>
+                            <div class="input-wrappers">
+                                <img src="Images/ContactUs/mobile.svg" alt="phone icon" class="icon">
+                                <input type="text" placeholder="Your number" required>
+                            </div>
+                            <div class="input-wrappers">
+                                <img src="Images/ContactUs/email.svg" alt="email icon" class="icon">
+                                <input type="email" placeholder="Your email" required>
+                            </div>
+                        </div>
+                        <div class="form-button">
+                            <button type="submit">
+                                Send <span class="arrow">&#8599;</span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+        </section>
+    </main>
+
+
+    <footer class="footer">
+        <!-- Logo -->
+        <div class="footer-logo">
+            <img src="Images/Logo/Logo.svg" alt="Company Logo" />
+        </div>
+
+        <!-- Footer content -->
+        <div class="footer-content">
+
+            <!-- Contact -->
+            <div class="footer-column contact">
+                <h5>Contact us</h5>
+                <ul>
+                    <li>
+                        <img src="Images/Footer/email.svg" alt="email" class="icon"> jagroofingconstruction@gmail.com
+                    </li>
+                    <li>
+                        <img src="Images/Footer/call.svg" alt="phone" class="icon"> +92 7993863789
+                    </li>
+                    <li>
+                        <img src="Images/Footer/location.svg" alt="location" class="icon"> 123 Main St, Corpus Christi,
+                        TX 78401
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-column links">
+                <h5>Quick links</h5>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Financing</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+
+            <!-- Services -->
+            <div class="footer-column services">
+                <h5>Services</h5>
+                <ul>
+                    <li><a href="#">Services 1</a></li>
+                    <li><a href="#">Services 2</a></li>
+                    <li><a href="#">Services 3</a></li>
+                    <li><a href="#">Services 4</a></li>
+                </ul>
+            </div>
+
+            <!-- Newsletter -->
+            <div class="footer-column newsletter">
+                <h5>Subscribe to newsletter</h5>
+                <form>
+                    <div class="input-container">
+                        <input type="email" placeholder="You mail" required>
+                        <button type="submit"><img src="Images/Footer/arrow.svg" alt="send"></button>
+                    </div>
+                </form>
+                <p>There will be no third-party sharing of your data.</p>
+
+                <div class="social-icons">
+                    <a href="#"><img src="Images/Footer/facebook.svg" alt="facebook"></a>
+                    <a href="#"><img src="Images/Footer/instagram.svg" alt="instagram"></a>
+                    <a href="#"><img src="Images/Footer/linkedin.svg" alt="linkedin"></a>
+                    <a href="#"><img src="Images/Footer/twitter.svg" alt="twitter"></a>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- Bottom bar -->
+    <div class="footer-bottom">
+        <p>Jagroofingconstruction ©. All rights reserved.</p>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-..."
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
