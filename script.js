@@ -7,30 +7,38 @@
   const links = menu ? menu.querySelectorAll('a') : [];
   const body = document.body;
 
-  // Hamburger toggle
-
-
+  // Update aria-expanded + lock scroll
   function setExpanded() {
-    const isOpen = !!(toggle && toggle.checked);
+    const isOpen = toggle?.checked ?? false;
+
     if (label) label.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
-    if (body) {
-      if (isOpen) { body.classList.add('no-scroll'); }
-      else { body.classList.remove('no-scroll'); }
+    if (body) body.classList.toggle('no-scroll', isOpen);
+
+    // Add smooth animation
+    if (menu) {
+      if (isOpen) menu.classList.add('active');
+      else menu.classList.remove('active');
     }
   }
+
+  // Close menu
   function closeMenu() {
-    if (toggle) { toggle.checked = false; setExpanded(); }
+    if (toggle && toggle.checked) {
+      toggle.checked = false;
+      setExpanded();
+    }
   }
+
+  // Event listeners
   if (toggle) {
     toggle.addEventListener('change', setExpanded);
     setExpanded();
   }
-  if (overlay) { overlay.addEventListener('click', closeMenu); }
-  if (closeBtn) { closeBtn.addEventListener('click', closeMenu); }
-  links.forEach(a => a.addEventListener('click', closeMenu));
+
+  if (overlay) overlay.addEventListener('click', closeMenu);
+  if (closeBtn) closeBtn.addEventListener('click', closeMenu);
+  links.forEach(link => link.addEventListener('click', closeMenu));
 })();
-
-
 
 // Our Services Accordion
 
@@ -358,9 +366,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
 const cards = document.querySelectorAll('.blog-card');
 
-  cards.forEach(card => {
-    card.addEventListener('click', () => {
-      cards.forEach(c => c.classList.remove('active'));
-      card.classList.add('active');
-    });
+cards.forEach(card => {
+  card.addEventListener('click', () => {
+    cards.forEach(c => c.classList.remove('active'));
+    card.classList.add('active');
   });
+});
